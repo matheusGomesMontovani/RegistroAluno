@@ -12,6 +12,11 @@ function salvar() {
         dadosAluno.dataNascimento == "" || dadosAluno.numMatricula == "" || dadosAluno.escolherCurso == "") {
         window.alert("Degite os dados do aluno")
     } else {
-        console.log(dadosAluno);
+        window.alert("Nome do aluno: " + dadosAluno.nomeAluno + "\n"  +
+        "Nome da Mãe: " + dadosAluno.nomeMae + "\n"  +
+        "Nome do Pai: " + dadosAluno.nomePai + "\n"  +
+        "Data de Nascimento: " + dadosAluno.dataNascimento + "\n" +
+        "Número da Matrícula: " + dadosAluno.numMatricula + "\n" +
+        "Curso: " + dadosAluno.escolherCurso);
     }
 }
